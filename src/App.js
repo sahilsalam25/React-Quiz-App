@@ -7,7 +7,7 @@ function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
 
-  const questions = [
+  const questions = [ 
     {
       text: "Question: What does HTML stand for?",
       options: [
